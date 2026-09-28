@@ -1,0 +1,12 @@
+Date,Description,Amount,Type,Frequency
+2026-09-01,Rent,1595,Priority,Monthly 
+2026-09-06,Council Tax,170,Priority,Monthly
+2026-09-10,Electricity Bill,60,Priority,Monthly
+2026-09-12,Phone Bill,20,Priority,Monthly
+2026-09-29,Internet Bill,30,Priority,Monthly
+2026-09-18,Travel,190,Essential,Monthly
+2026-09-04,Groceries,70,Essential,Monthly 
+2026-09-02,Car Fuel,30,Disrectionary,Monthly
+2026-09-22,Clothing,50,Disrectionary,Monthly
+2026-09-30,Haircut,30,Disrectionary,Monthly
+2026-09-02,Car Insurance,110,Essential,Monthly
