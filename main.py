@@ -16,6 +16,11 @@ def main():
             type_ = row[3]
             if type_ == "Priority" or type_ == "Essential":
                 total_priority += amount
-        print(total_priority)        
 
+    income = float(input("What is your monthly income?"))
+    remaining = income - total_priority 
+
+    print(f"Total priority costs: £{total_priority}")        
+    print(f"Remaining income after priority outgoings: £{remaining}")
+    
 main()
