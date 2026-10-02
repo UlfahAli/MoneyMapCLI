@@ -1,6 +1,6 @@
 MoneyMap CLI
 
-A command-line budgeting tool that helps people with tight or variable income quickly see whether their money covers their essential and priority outgoings — without needing a spreadsheet.
+A command-line budgeting tool that helps people with tight or variable income quickly see whether their money covers their essential and priority outgoings without needing a spreadsheet.
 
 The problem being solved:
 
@@ -44,11 +44,11 @@ Consider increasing your income and seeking advice from your local advice centre
 
 What design decisions were made?
 
-- Priority vs Essential, not just Priority. Debt advice centres separate essential living costs from priority debts when calculating what's left for other payments. Early versions of this tool only tracked a yes/no 'priority' flag — this was changed to a 'type' column once it became clear that users may not know the difference between the two themselves, and that distinction is essential for an accurate result.
+- Priority vs Essential, not just Priority. Debt advice centres separate essential living costs from priority debts when calculating what's left for other payments. Early versions of this tool only tracked a yes/no 'priority' flag. This was changed to a 'type' column once it became clear that users may not know the difference between the two themselves, and that distinction is essential for an accurate result.
 - CSV file used over a database. Keeps the project simple, transparent, and easy for a non-technical user to edit directly.
-- Friendly shortfall messaging. An early version printed a raw negative number (e.g. '-145') when income didn't cover costs. This was changed to a clear shortfall message using 'abs()', plus a direct suggestion to contact a debt advice service — because the goal isn't just to show a number, it's to point toward a next step.
+- Friendly shortfall messaging. An early version printed a raw negative number (e.g. '-145') when income didn't cover costs. This was changed to a clear shortfall message using 'abs()', plus a direct suggestion to contact a debt advice service.
 
-Some iterations
+Some iterations:
 
 This project was built step by step rather than planned end-to-end upfront:
 - Started with reading and printing raw CSV content, before parsing it into structured data with 'csv.reader'.
